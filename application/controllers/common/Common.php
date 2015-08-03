@@ -30,6 +30,6 @@ class Common extends CI_Controller {
 		endif;
 
 		// 사이트 기본 정보 설정
-		$this->site		= array('root'=>'/ci2', 'title'=>'site title', 'csstheme'=>'cosmo', 'layout'=>'default');
+		$this->site		= array('root'=>'/spdb', 'title'=>'site title', 'csstheme'=>'cosmo', 'layout'=>'default');
 	}
 }
