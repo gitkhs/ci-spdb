@@ -20,7 +20,7 @@ class Main extends Common {
 
 	public function index()
 	{
-// 		$query = $this->db->query('SELECT ci_name, ci_title FROM ci_test');
+		$query = $this->db->query('SELECT * FROM tbl_test');
 		
 // 		foreach ($query->result() as $row)
 // 		{
@@ -29,6 +29,6 @@ class Main extends Common {
 // 			echo '<br/>';
 // 		}
 		
-// 		echo 'Total Results: ' . $query->num_rows();		
+		echo 'Total Results: ' . $query->num_rows();		
 	}
 }
