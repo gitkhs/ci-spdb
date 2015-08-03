@@ -1,0 +1,1 @@
+<a href="<?=$site['root']?>/sample">go sample</a>
